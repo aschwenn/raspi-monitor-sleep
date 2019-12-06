@@ -1,6 +1,8 @@
 # raspi-monitor-sleep
 turns off raspberry pi monitor based on GPIO input
 
+useful for magic mirrors since the existing libraries are not great
+
 ### setup:
 * `chmod +x turnon.sh`
 * `chmod +x turnoff.sh`
