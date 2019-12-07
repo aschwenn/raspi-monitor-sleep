@@ -10,6 +10,6 @@ useful for magic mirrors since the existing libraries are not great
 	* `sudo nano /etc/rc.local`
 	* add to the end before `exit 0`:
 	* `sudo python /home/pi/raspi-monitor-sleep/watcher.py & > /home/pi/raspi-monitor-sleep/log.txt`
-	* `sudo reboot~
+	* `sudo reboot`
 
 portions of the code were lifted from elsewhere but i can't remember where
