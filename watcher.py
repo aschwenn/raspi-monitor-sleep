@@ -10,11 +10,11 @@ GPIO.setmode(GPIO.BCM)
 ''' CONSTANTS '''
 TURNOFF_DELAY_SECONDS = 30
 SENSOR_PIN = 17
-USE_ALWAYS_ON_OVERRIDE = True
-ALWAYS_ON_PIN = 20
+USE_ALWAYS_ON_OVERRIDE = False
+ALWAYS_ON_PIN = 16
 ALWAYS_ON_STATE = 1 # will enable upon reading this value
 USE_ALWAYS_OFF_OVERRIDE = True
-ALWAYS_OFF_PIN = 16
+ALWAYS_OFF_PIN = 20
 ALWAYS_OFF_STATE = 0 # will enable upon reading this value
 
 ''' PROGRAM '''
